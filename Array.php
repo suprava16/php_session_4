@@ -18,7 +18,7 @@ $arr1=[20,"suprava",30.5,true];
 
 //associative array
 $arr2=[1=>"Ram","B"=>30,"C"=>"laxman"];
-// echo $arr2[1];
+// echo $arr2[B];
 
 foreach($arr2 as $k=>$v ){
   echo "$k=>$v<br>";
