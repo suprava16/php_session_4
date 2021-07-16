@@ -39,6 +39,9 @@ if($result->num_rows>0){
       <td><?php echo $phone;?></td>
       <td><?php echo $desig;?></td>
       <td><?php echo $salary;?></td>
+     <?php
+    echo  "<td><a href='update.php?uid=$data[id]'>update</a></td>";
+      ?> 
     </tr>
   </table>
 </body>
